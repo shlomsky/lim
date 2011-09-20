@@ -1,0 +1,88 @@
+/*
+LAYOUT: Three-Column (Right) Primary
+DESCRIPTION: Three-column 988px fixed layout with two sidebars right of content, primary being on the left.
+*/
+
+body {
+    min-width:988px;
+}
+#header {
+    position:relative;
+}
+#branding {
+    width:988px;
+    margin:0 auto;
+}
+#access {
+    position:relative;
+    overflow:hidden;
+}
+.menu {
+    width:988px;
+    margin:0 auto;
+}
+#leader-container {
+    width:988px;
+    margin:0 auto;
+    overflow:hidden;
+}
+#leader .aside {
+    width:316px;
+    float:left;
+    margin:0 20px 0 0;
+}
+#leader #third-leader {
+    margin:0;
+}
+#main {
+    width:988px;
+    margin:0 auto;
+    overflow:hidden;
+    position:relative;
+}
+#container {
+    float:left;
+    width:988px;
+}
+#content {
+    margin-right:448px;
+    overflow:hidden;
+}
+#sidebar {
+    float:right;
+    margin:0 0 0 -428px;
+    overflow:hidden;
+    width:428px;
+}
+#crown {
+}
+.main-aside {
+    width:214px;
+}
+#primary {
+    float:left;
+}
+#secondary {
+    float:right;
+}
+#footer {    
+    clear:both;
+}
+#subsidiary {
+    width:988px;
+    margin:0 auto;
+    overflow:hidden;
+}
+#subsidiary .aside {
+    width:316px;
+    float:left;
+    margin:0 20px 0 0;
+}
+#subsidiary #third {
+    margin:0;
+}
+#siteinfo {
+    clear:both;
+    width:988px;
+    margin:0 auto;
+}

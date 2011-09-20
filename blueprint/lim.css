@@ -1,0 +1,61 @@
+body{font-family:Arial,sans-serif;}
+a{color:#666666;text-decoration:underline;}
+a:hover{color:#053d5d;text-decoration:underline;}
+#main{border-top:1px solid #CCCCCC;margin-top:20px;}
+#masthead{margin:16px 0;}
+#masthead h1{font-size:34px;line-height:40px;padding:0 10px;margin-bottom:7px;}
+#masthead h1 a{color:#343434;text-decoration:none;}
+#masthead h1 a:hover{color:#053d5d;text-decoration:none;}
+p.desc{color:#666666;font-size:13px;font-style:italic;font-family:georgia;padding:0 10px;line-height:20px;margin-bottom:18px;}
+p.desc a{color:#666666;text-decoration:none;}
+p.desc a:hover{color:#053d5d;text-decoration:none;}
+nav.primary{width:988px;float:left;border-bottom:1px solid #cccccc;margin:0 0 40px;}
+nav.primary .menu-lil-container{margin:0 0 0 285px;}
+nav.primary ul{margin:5px 0;float:left;}
+nav.primary li{list-style:none;float:left;padding:9px 30px;font-size:16px;font-family:georgia;}
+nav.primary li a{color:#666666;text-decoration:none;}
+nav.primary li a:hover{color:#666666;text-decoration:underline;}
+nav.primary li.current-menu-item a, nav.primary li.current-menu-parent a{color:#343434;font-weight:bold;}
+nav.primary li.current-menu-parent ul li a{font-weight:normal !important;}
+nav.primary li.current-menu-parent ul li.current-menu-item a{font-weight:bold !important;color:#343434;}
+nav.primary li ul.sub-menu{float:left;left:-110px;margin:20px 0 0;position:relative;width:600px;display:none;}
+nav.primary ul li:hover ul.sub-menu{display: block;width:400px;}
+nav.primary li ul.sub-menu li{list-style:none;float:left;padding:0 15px;margin:0;font-size:14px;font-family:georgia;}
+nav.primary li ul.sub-menu li a{color:#666666;text-decoration:none;}
+nav.primary li ul.sub-menu li a:hover{color:#666666;text-decoration:underline !important;}
+nav.primary li#menu-item-239, nav.primary li#menu-item-261{width:50px !important;}
+nav.primary li#menu-item-239 a:hover, nav.primary li#menu-item-261 a:hover{text-decoration:none;}
+#content{width:550px;float:left;padding:0 10px 0 0;}
+#sidebar{width:400px;float:right;border:1px solid #cccccc;padding:10px;}
+#post-content p, #page-content p{font-size:15px;font-family:georgia;line-height:22px;margin:0 0 22px;}
+#post-meta p, #respond p{font-size:13px;font-family:georgia;line-height:20px;margin:0 0 22px;}
+article h1{font-family:Arial,sans-serif;font-size:26px;font-weight:bold;line-height:26px;padding:0 0 7px;margin:0 0 10px;}
+article h1 a{color:#343434;text-decoration:none;}
+article h1 a:hover{color:#053d5d;}
+footer p{color:#666666;font-size:11px;line-height:18px;padding:32px 0 44px;}
+footer p a{color:#666666;text-decoration:underline;}
+footer p a:hover{color:#053d5d;text-decoration:underline;}
+footer{border-top:1px solid #CCCCCC;margin-top:22px;}
+#page-meta h3{font-family:georgia;color:#666666;font-size:12px;line-height:18px;font-weight:normal;margin:0 0 20px;}
+#page-meta h3 a{color:#666666;font-weight:normal;text-decoration:underline;}
+#page-meta h3 a:hover{color:#053d5d;}
+span.cap{text-transform:uppercase;font-size:11px;}
+#post-meta{border-top:1px solid #ededed;margin-top:30px;}
+#post-meta a{padding-top:15px;float:left;}
+#respond{margin:40px 0 0 0;}
+textarea{border:1px solid #cccccc;padding:5px;font-family:arial;font-size:13.5px;}
+.older{float:left;}
+.newer{float:right;}
+.newer-older{clear:both;float:left;margin:15px 0 20px;width:555px;}
+#widgit-sidebar ul{margin:5px 0 0 10px;}
+#widgit-sidebar ul ul{margin:0 0 0 5px;color:#343434;}
+#widgit-sidebar ul li{list-style:square inside none;line-height:19px;}
+#widgit-sidebar ul li a{color:#666666;}
+#widgit-sidebar h3{font-family:georgia;font-size:17px;color:#666666;font-weight:normal;font-style:italic;margin-bottom:13px;}
+#gallery {margin:40px 0 0 0;}
+#gallery li{float:left;list-style:none;text-align:center;width:323px;margin-bottom:50px;}
+#gallery li img{border:2px solid #CFCFCF;}
+#gallery h3{font-size:14px;font-weight:normal;font-family:georgia;margin:0 0 5px 0;line-height:22px;width:323px;text-align:center;}
+#gallery h3 a{color:#666666;font-style:italic;}
+.gallery{margin-top:30px !important;}
+#colorbox img {max-width:800px !important;}

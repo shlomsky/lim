@@ -1,0 +1,246 @@
+/*   
+Theme Name: Thematic Power Blog
+Theme URI: 
+Description: Use the Thematic Power Blog Theme to ramp up the power of your WordPress blog.
+Author: Ian Stewart
+Author URI: http://themeshaper.com/
+Template: thematic
+Version: 1.1
+Tags: Thematic
+.
+Thematic Power Blog is copyright Ian Stewart http://themeshaper.com/
+.
+*/
+
+/* Reset browser defaults */
+@import url('../thematic/library/styles/reset.css');
+
+/* Apply basic typography styles */
+@import url('../thematic/library/styles/typography.css');
+
+/* Apply a basic layout */
+@import url('3c-r-fixed-primary-988px.css');
+
+/* Apply basic image styles */
+@import url('../thematic/library/styles/images.css');
+
+/* Apply default theme styles and colors
+   For demonstration purposes we're using the default Thematic style
+   For major changes I recommend copying over the default styles into this file */
+@import url('../thematic/library/styles/default.css');
+
+/* Prepare theme for plugins */
+@import url('../thematic/library/styles/plugins.css');
+
+
+/* =Category Menu
+-------------------------------------------------------------- */
+
+#category-access {
+    border-bottom:1px solid #ccc;
+    height:32px;
+    font-size:13px;
+    padding:11px 0;
+    overflow:visible; 
+    z-index:150;
+}
+/* uncomment the following two selectors in case your category list wraps into a second row
+#category-access {
+		height: 96px;
+}
+
+body.ie7 #category-access {
+		height: 64px;
+}
+*/
+.menu-title {
+    color:#666;
+    float:left;
+    font-style:italic;
+    line-height:32px;
+    margin-right:10px;
+}
+#category-access .sf-menu {
+    border-color:transparent;
+}
+#category-access .sf-menu a {
+    border:1px solid transparent;
+    margin-right:3px;
+}
+#category-access .sf-menu li:hover, #category-access .sf-menu li:hover a,
+#category-access .sf-menu li.sfHover, #category-access .sf-menu li.sfHover a,
+#category-access .sf-menu a:focus, #category-access .sf-menu a:hover, #category-access .sf-menu a:active {
+    background:     #fafafa;
+	outline:		0;
+    border-color:#ccc;
+}
+#category-access .sf-menu ul a {
+    background:#fafafa;
+    border-color:#ccc;
+    border-right:none;
+	border-bottom:none;
+	margin-right:0;
+}
+
+
+/* =Default Widgets
+-------------------------------------------------------------- */
+
+#crown h3 {
+    font-size:17px;
+    padding:0 0 4px 0;
+}
+#crown #thematic-power-blog-subscribe {
+    padding:0 0 44px 0;
+    position:relative;
+}
+#crown #thematic-power-blog-subscribe h3 {
+    position:absolute;
+    top:0;
+    left:0;
+}
+#crown #thematic-power-blog-subscribe ul {
+    list-style:none;
+    margin:0;
+    position:absolute;
+    top:0;
+    right:0;
+}
+#crown #thematic-power-blog-subscribe ul li {
+    padding:0;
+}
+#crown #thematic-power-blog-subscribe a {
+    background:url(images/feed-icon-14x14.gif) no-repeat 10px 6px;
+    border:1px solid #ccc; 
+    -webkit-border-radius: .35em;
+    -moz-border-radius: .35em;
+    border-radius: .35em;
+    padding:6px 16px 6px 32px;    
+    text-decoration:none;
+}
+/* Fix for the a-tag border bug in IE7 */
+body.ie7 #crown #thematic-power-blog-subscribe a {
+	float:left; 
+}
+#thematic-power-blog-about ul {
+    list-style:none;
+    margin-left:0;
+}
+#thematic-power-blog-about a.more {
+    display:block;
+    text-align:right;
+}
+
+
+/* =Global Elements
+-------------------------------------------------------------- */
+
+#header {
+    border-top:1px solid #ccc;
+    margin-top:22px;
+}
+#branding {
+    background:url(images/header-image.jpg) no-repeat center bottom;
+    margin-bottom:22px;
+    padding:20px 0 198px 0; /* Bottom padding is the same height as the image called above */
+}
+#blog-description {
+    margin-bottom:22px;
+}
+#leader {
+    border-bottom:1px solid #ccc;
+    margin-bottom:-22px;
+    padding:33px 0 11px 0;
+}
+#content {
+}
+.hentry {
+}
+.crown-aside {
+    color:#666;
+    padding-top:22px;
+    margin:0;
+}
+.attachment-jpeg .crown-aside,
+.attachment.png .crown-aside {
+    display:none;
+}
+.crown-aside a {
+    color:#666;
+}
+.crown-aside a:active,
+.crown-aside a:hover {
+    color: #FF4B33;
+}
+.crown-aside ul {
+    padding:0 20px;
+}
+.crown-aside ul ul {
+    border:none;
+    padding:0;
+}
+.main-aside {
+    padding-top:22px;
+}
+.main-aside ul {
+    padding:0 20px;
+}
+.main-aside ul ul {
+    padding:0;
+}
+#crown {
+    border:1px solid #ccc;
+    width:426px;
+}
+#primary {
+    border:1px solid #ccc;
+    border-width:0 1px 1px 1px;
+    padding:22px 0 11px 0;
+    width:212px;
+}
+#secondary {
+    border:1px solid #ccc;
+    border-width:0 1px 1px 1px; /* keeping a border on the left for no-js */
+    margin-left:-1px; /* offsets the 1px border on the left */
+    padding:22px 0 11px 0;
+    width:213px;
+}
+
+#breadcrumb-nav {
+    border-top:1px solid #ccc;
+    color:#666;
+    font-size:13px;
+    line-height:18px;
+    margin-bottom:-22px;
+}
+#breadcrumb-nav a {
+    color:#666;
+}
+#breadcrumb-nav a:active,
+#breadcrumb-nav a:hover {
+    color: #FF4B33;
+}
+#breadcrumb-nav-container {
+    margin:0 auto;
+    padding:11px 0;
+    width:988px;
+}
+#breadcrumb-nav-container p {
+    margin:0;
+}
+#footer {
+}
+
+
+.wp-pagenavi span.pages {
+		padding:4px !important;
+}
+
+
+/* =Widgets
+-------------------------------------------------------------- */
+
+.aside th, .aside td {
+	padding:0.25em 0.35em;
+}
+
